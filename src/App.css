@@ -1,0 +1,26 @@
+/* App.css */
+.app {
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  width: 50%;
+  height: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.text-overlay {
+  color: rgba(255, 255, 255, 0.5); /* 白色で50％の透明度 */
+  font-size: 2.5em; /* フォントサイズを大きくする */
+  font-weight: bold;
+  text-align: center;
+}
